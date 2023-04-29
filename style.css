@@ -1,0 +1,34 @@
+body {
+    background-color: thistle;
+    margin:0;
+}
+
+h1 {
+    background-color: blueviolet;
+    padding:10px 20px;
+    margin: 20px;
+    border:5px solid white;
+    border-radius: 20px;
+    color: white;
+    text-align:center;
+}
+
+#smaller {
+    font-size: 1.3em;
+    background-color: plum;
+    max-width: 500px;
+    margin:0 auto;
+}
+
+.highlight {
+    background-color: #fff0e5;
+    color: black;
+}
+
+h2{
+    background-color: orange;
+}
+
+.purpleheading{
+    background-color: purple;
+}
