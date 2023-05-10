@@ -49,8 +49,11 @@ img {
 
 .bigtext{
     color: white;
-    text-align: center;
     padding-right: 70px;
+    text-align: center;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
