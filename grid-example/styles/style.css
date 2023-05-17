@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title_image {
+    display: block;
+    grid-column: 1/-1;
+    width: 100%;
+
+}
+  
+.bottom_photo {
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #303030;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 60%;
+
+}
+
+body{
+    background-color: #5b5b5b;
+}
