@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 
     gap: 20px;
 }
@@ -15,7 +15,13 @@
     display: block;
     grid-column: 1/-1;
     width: 100%;
+}
 
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
 }
   
 .bottom_photo {
@@ -28,8 +34,9 @@
     margin-right: auto;
     margin-bottom: auto;
     width: 60%;
-
 }
+
+
 
 body{
     background-color: #5b5b5b;
