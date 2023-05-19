@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a{
     text-align: center;
     color: #E6E643;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -21,12 +25,22 @@ main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body{
     background-color: #014289;
+    font-family: 'courier new';
+    font-family: 'sans-serif';
+    font-family: 'Nanum Gothic';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -42,6 +56,10 @@ nav a:hover{
     background-color: #014289;
     color: #E6E643;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -55,15 +73,24 @@ nav a:hover{
 
 .msg{
     background-color: #014289;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #014289;
     color: #CC391F;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color: #E6E643;
+    font-family: 'courier new';
+    font-family: 'sans-serif';
+    font-family: 'Gill Sans';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -72,10 +99,15 @@ h4{
 
 .msg h2 {
     color: #E6E643;
+    font-family: 'courier new';
+    font-family: 'sans-serif';
+    font-family: 'Gill Sans';
 }
 
 .msg p{
     color: #E6E643;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer a{
@@ -87,12 +119,21 @@ footer a:hover{
     background-color: black;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo{
     width: 80px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -106,3 +147,15 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }  
+
+h2 {
+    margin: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #000000;
+}
