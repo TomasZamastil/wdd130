@@ -1,0 +1,75 @@
+.grid-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(95, 94, 94);
+}
+
+img{
+    grid-column: 1/2;
+    grid-row: 1/32 ;
+    width: 95%;
+}
+
+h1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.description{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.email {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.password{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.checkbox {
+    grid-column: 1/3;
+    grid-row: 7/8;
+    margin: 20px;
+    margin-left: 35px;
+}
+
+.checkbox-text {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    margin-left: 20px;
+}
+
+.button {
+    transition-duration: 0.4s;
+    background-color: orange;
+    grid-column: 2/3;
+    grid-row: 8/9;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  /* stolen from w3schools */
