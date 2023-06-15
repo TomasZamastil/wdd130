@@ -3,12 +3,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
     grid-column: 2/3;
     background-color: white;
-    height: 100%;
 }
 
 img {
@@ -17,7 +17,7 @@ img {
 
 .threeweeksago {
     text-align:center;
-    color: #557299;
+    color:grey;
     margin: 0px 50px;
 }
 
@@ -37,14 +37,8 @@ img {
     margin: 0px 50px;
     color: grey;
     line-height: 1.5em;
-    font-size: 25px;
+    font-size: 18px;
     font: 500;
-}
-
-#middleFooter {
-    border: .1px solid white;
-    border-top: none;
-    border-bottom: none;
 }
 
 .footersection {
