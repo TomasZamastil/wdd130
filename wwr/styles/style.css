@@ -1,5 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+.page2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.page2h1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 10;
+}
+
+.page2p{
+    grid-column: 1/4;
+    grid-row: 2/4;
+    z-index: 10;
+    margin: 10px;
+}
+
+.page2p2{
+    grid-row: 6/7;
+    grid-column: 1/4;
+    margin: 10px;
+}
+
+.page2background1{
+    background-color: #E6E643;
+    grid-row: 1/4;
+    grid-column: 1/4;
+}
+
+.page2background2{
+    background-color: #E6E643;
+    grid-row: 6/7;
+    grid-column: 1/4;
+}
+
+.img1{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    max-width: 75%;
+    padding: 16%;
+}
+
+.img2{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    max-width: 75%;
+    padding: 16%;
+}
+
+.img3{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    max-width: 64%;
+    padding: 16%;
+}
+
+.img1-text{
+    padding-left: 16%;
+    padding-right: 16%;
+    text-align: center;
+    margin-top: -5%;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.img2-text{
+    padding-left: 16%;
+    padding-right: 16%;
+    text-align: center;
+    margin-top: -5%;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.img3-text{
+    padding-left: 16%;
+    padding-right: 16%;
+    text-align: center;
+    margin-top: -5%;
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
