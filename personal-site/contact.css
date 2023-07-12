@@ -21,6 +21,10 @@
     --nav-hover-background-color: #424642;
   }
 
+body {
+    background-color: var(--primary-color);
+}
+
 nav {
     background-color: var(--nav-background-color);
     line-height: 3em;
@@ -45,15 +49,64 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-img {
+.logo-img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     padding: auto;
 }
 
+h1 {
+    display:block;
+    margin: 50px;
+    text-align: center;
+}
+
+.body-img {
+    display: block;
+    margin: auto;
+    max-width: 18%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
 a{
     max-width: 16%;
+}
+
+footer{
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 25px 50px;
+    margin: -8px;
+    margin-top: 200px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+footer a{
+    color: var(--accent2-color);
+    text-decoration: none;
+    text-align: center;
+    padding: auto;
+    margin: 50;
+}
+
+footer a:hover{
+    background-color: var(--secondary-color);
+}
+
+footer p {
+    font-size: 1.2em;
+}   
+
+footer p a:hover {
+    text-decoration: underline;
+}  
+
+.hover-fix{
+    background-color: var(--accent1-color);
 }
 
 nav img:hover {
@@ -77,3 +130,4 @@ nav img:hover {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
