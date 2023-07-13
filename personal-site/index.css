@@ -57,7 +57,7 @@ nav a:hover {
 
 .name{
     text-align: center;
-    grid-column: 0/1;
+    grid-column: 1/2;
     grid-row: 1/2;
 }
 
@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 .work-experience-field{
-    grid-column: 0/1;
+    grid-column: 2/3;
     grid-row: 1/5;
 }
 
@@ -83,7 +83,6 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    padding: auto;
 }
 
 .personal-info{
@@ -119,8 +118,6 @@ footer a{
     color: var(--accent2-color);
     text-decoration: none;
     text-align: center;
-    padding: auto;
-    margin: 50;
 }
 
 footer a:hover{
