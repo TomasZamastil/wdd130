@@ -49,11 +49,55 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-img {
+.body-grid{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+}
+
+.name{
+    text-align: center;
+    grid-column: 0/1;
+    grid-row: 1/2;
+}
+
+.intro-img{
+    max-width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.acap-img{
+    max-width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 20px;
+}
+
+.work-experience-field{
+    grid-column: 0/1;
+    grid-row: 1/5;
+}
+
+.logo-img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     padding: auto;
+}
+
+.personal-info{
+    grid-row: 5/7;
+    grid-column: 1/2;
+}
+
+.education{
+    grid-row: 5/7;
+    grid-column: 2/3;
+}
+
+h1{
+    font-size:xx-large;
 }
 
 a{
