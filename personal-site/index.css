@@ -61,16 +61,16 @@ nav a:hover {
     grid-row: 1/2;
 }
 
-.intro-img{
-    max-width: 100%;
+.description{
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 4/5;
+    margin-top: -175px;
 }
 
 .acap-img{
     max-width: 100%;
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 2/4;
     margin-top: 20px;
 }
 
